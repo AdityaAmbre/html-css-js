@@ -1,0 +1,51 @@
+<!--Calculator-->
+<!--
+ * @Author: Aditya Ambre
+ * @Date: 2018-11-10 17:27:36
+ * @Last Modified by:   Aditya Ambre 
+ * @Last Modified time: 2018-11-10 19:46:49 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript" src="script.js"></script>
+        <title>Calculator</title>
+    </head>
+    <body class="body">
+        <div class="calc">
+            <div class="disp">
+                <input type="text" id="dispHIST" class="dispHIST" value=""/>
+                <input type="text" id="dispIN" class="dispIN" value=""/>
+            </div>
+            <div class="keys">
+                <input type="button" class="btnkeys" value="AC" onclick="res()"/>
+                <input type="button" class="btnkeys" value="C" onclick="resc()"/>
+                <input type="button" class="btnkeys" value="%" onclick="disp('%')"/>
+                <input type="button" class="btnkeys" value="/" onclick="disp('/')"/>
+            <br>
+                <input type="button" class="btnkeys" value="7" onclick="disp('7')"/>
+                <input type="button" class="btnkeys" value="8" onclick="disp('8')"/>
+                <input type="button" class="btnkeys" value="9" onclick="disp('9')"/>
+                <input type="button" class="btnkeys" value="x" onclick="disp('*')"/>
+            <br>
+                <input type="button" class="btnkeys" value="4" onclick="disp('4')"/>
+                <input type="button" class="btnkeys" value="5" onclick="disp('5')"/>
+                <input type="button" class="btnkeys" value="6" onclick="disp('6')"/>
+                <input type="button" class="btnkeys" value="-" onclick="disp('-')"/>
+            <br>
+                <input type="button" class="btnkeys" value="1" onclick="disp('1')"/>
+                <input type="button" class="btnkeys" value="2" onclick="disp('2')"/>
+                <input type="button" class="btnkeys" value="3" onclick="disp('3')"/>
+                <input type="button" class="btnkeys" value="+" onclick="disp('+')"/>
+            <br>
+                <input type="button" class="btnkeys" value="." onclick="disp('.')"/>
+                <input type="button" class="btnkeys" value="0" onclick="disp('0')"/>
+                <input type="button" class="anskeys" value="=" onclick="ans()"/>
+            </div>
+        </div>
+    </body>
+</html>
